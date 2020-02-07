@@ -5,7 +5,6 @@ const app = express();
 
 app.get('/', 
     function(req, res, next){
-        req.count++;
 	res.send(`Test`);
 }
 );
