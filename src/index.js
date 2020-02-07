@@ -3,13 +3,10 @@ const express = require('express');
 const app = express();
 
 
-app.get('/', function(req, res, next){
-    req.count = 0;
-	next();
-},
+app.get('/', 
     function(req, res, next){
         req.count++;
-	res.send(`${req.count}`);
+	res.send(`Test`);
 }
 );
 
