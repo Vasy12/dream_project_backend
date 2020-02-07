@@ -9,56 +9,6 @@ app.get('/', function(req, res, next){
 },
     function(req, res, next){
         req.count++;
-	next();
-}
-,
-    function(req, res, next){
-        req.count++;
-	next();
-}
-,
-    function(req, res, next){
-        req.count++;
-	next();
-}
-,
-    function(req, res, next){
-        req.count++;
-	next();
-}
-,
-    function(req, res, next){
-        req.count++;
-	next();
-}
-,
-    function(req, res, next){
-        req.count++;
-	next();
-}
-,
-    function(req, res, next){
-        req.count++;
-	next();
-}
-,
-    function(req, res, next){
-        req.count++;
-	next();
-}
-,
-    function(req, res, next){
-        req.count++;
-	next();
-}
-,
-    function(req, res, next){
-        req.count++;
-	next();
-}
-,
-    function(req, res, next){
-        req.count++;
 	res.send(`${req.count}`);
 }
 );
